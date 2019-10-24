@@ -1,0 +1,12 @@
+name: 111111
+custom:
+  env: a
+  localhost: 122.168.0.1111
+spring:
+  application:
+    name: product
+  datasource:
+    url: jdbc:mysql://192.168.110.242:3306/ryan_test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=true&verifyServerCertificate=false
+    username: develop
+    password: hs2018!
+    driver-class-name: com.mysql.jdbc.Driver
